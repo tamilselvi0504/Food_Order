@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(30, 30, 83);
+    color: bisque;
+}
+
+.menu-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
