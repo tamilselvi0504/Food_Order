@@ -1,7 +1,7 @@
 // component/Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./Navbar.css";
 
 const Navbar = () => (
   <nav className="navbar">
