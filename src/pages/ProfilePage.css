@@ -1,0 +1,122 @@
+
+.profile-page {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #260B0B;
+  color: #FFF5ED;
+  padding: 20px;
+  border: 1px solid #783025;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.profile-page h2 {
+  color: #FF7147;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px solid #783025;
+}
+
+.profile-info p {
+  margin: 6px 0;
+  color: #D9C6C0;
+}
+
+.edit-btn {
+  background: #FF492F;
+  color: #FFF5ED;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.edit-btn:hover {
+  background: #FF7147;
+}
+
+.profile-info form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-info label {
+  margin-top: 8px;
+  font-weight: 600;
+  color: #FF7147;
+}
+
+.profile-info input,
+.profile-info textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #783025;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font: inherit;
+  background: #170909;
+  color: #FFF5ED;
+}
+
+.profile-info input:focus,
+.profile-info textarea:focus {
+  outline: 2px solid #FF492F;
+  outline-offset: 1px;
+}
+
+.profile-info textarea {
+  resize: vertical;
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  color: #FFF5ED;
+  cursor: pointer;
+}
+
+.save-btn {
+  background: #FF492F;
+}
+
+.save-btn:hover {
+  background: #FF7147;
+}
+
+.cancel-btn {
+  background: #783025;
+}
+
+.cancel-btn:hover {
+  background: #542019;
+}
+
+.profile-message {
+  margin-top: 16px;
+  color: #FF7147;
+  font-weight: 600;
+}
+
+.profile-info .edit-btn {
+  margin-top: 12px;
+}

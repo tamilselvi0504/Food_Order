@@ -1,0 +1,37 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+
+
+:root {
+  --bg-primary: #170909;
+  --bg-secondary: #260b0b;
+  --bg-card: #351313;
+  --accent: #ff492f;
+  --accent-hover: #ff7147;
+  --text-primary: #fff5ed;
+  --text-secondary: #d9c6c0;
+  --border-color: #783025;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
